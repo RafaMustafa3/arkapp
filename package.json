@@ -15,6 +15,15 @@
     "dev": "lite-server",
     "dev:node": "./node_modules/.bin/nodemon app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Ben Lugavere",
+    "email": "b.lugavere@gmail.com",
+    "url": "http://benlugavere.com/#/"
+  },
+  "contributors": [{
+    "name": "Rafael Benavides",
+    "email": "rafi869@gmail.com"
+  }],
+  "license": "ISC",
+  "repository": "blugavere/arkapp"
 }
