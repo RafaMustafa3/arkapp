@@ -7,6 +7,9 @@ To get started:
 3. Open up a terminal session in the directory and type the below commands:
 
 ```bash
+# create a reference to the original shared repository
+git remote add upstream git://github.com/blugavere/arkapp.git
+
 # this will install a bunch of stuff (dependencies) that you'll need
 npm install
 
@@ -20,3 +23,15 @@ npm run dev
 
 4. Navigate in a browser to view the website at [http://localhost:3000](http://localhost:3000)
 
+
+## other stuff
+
+```bash
+
+# to pull down the latest updates to the master repository
+git fetch upstream
+
+# to replay your changes onto the updated master repository
+git rebase upstream/master
+
+```
