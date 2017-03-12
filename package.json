@@ -13,7 +13,8 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "dev:node": "./node_modules/.bin/nodemon app.js"
+    "dev:node": "./node_modules/.bin/nodemon app.js",
+    "rafa": "SANDBOX=rafa lite-server"
   },
   "author": {
     "name": "Ben Lugavere",
