@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/blugavere/brocode.svg?branch=master)](https://travis-ci.org/blugavere/brocode)
+
 # Brocode
 
 To get started:
