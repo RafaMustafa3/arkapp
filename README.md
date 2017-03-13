@@ -24,7 +24,7 @@ npm run dev
 4. Navigate in a browser to view the website at [http://localhost:3000](http://localhost:3000)
 
 
-## other stuff
+## Keeping in Sync
 
 ```bash
 
@@ -35,3 +35,9 @@ git fetch upstream
 git rebase upstream/master
 
 ```
+
+## Resources
+
+### Git
+- [Getting started with github](https://guides.github.com/activities/hello-world/)
+- [Forking](https://guides.github.com/activities/forking/)
