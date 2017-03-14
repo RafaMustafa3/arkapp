@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "lite-server",
     "dev:node": "./node_modules/.bin/nodemon app.js",
-    "rafa": "SANDBOX=rafa lite-server",
+    "rafa": "set SANDBOX=rafa&& lite-server",
     "dardo": "SANDBOX=dardo lite-server",
     "forbes": "SANDBOX=forbes lite-server",
     "cody": "SANDBOX=cody lite-server",
