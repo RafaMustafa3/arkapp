@@ -1,5 +1,5 @@
 {
-  "name": "arkapp",
+  "name": "brocode",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "lite-server",
     "dev:node": "./node_modules/.bin/nodemon app.js",
-    "rafa": "SANDBOX=rafa lite-server",
+    "rafa": "set SANDBOX=rafa&& lite-server",
     "dardo": "SANDBOX=dardo lite-server",
     "forbes": "SANDBOX=forbes lite-server",
     "cody": "SANDBOX=cody lite-server",
@@ -31,5 +31,5 @@
     "email": "rafi869@gmail.com"
   }],
   "license": "ISC",
-  "repository": "blugavere/arkapp"
+  "repository": "blugavere/brocode"
 }
