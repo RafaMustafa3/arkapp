@@ -1,5 +1,5 @@
 {
-  "name": "arkapp",
+  "name": "brocode",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -31,5 +31,5 @@
     "email": "rafi869@gmail.com"
   }],
   "license": "ISC",
-  "repository": "blugavere/arkapp"
+  "repository": "blugavere/brocode"
 }
