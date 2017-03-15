@@ -1,0 +1,16 @@
+body {
+    color: blue;
+}
+
+.btn{
+
+font-size:25px;color:green;text-align: center;
+ }
+
+.blackbox{
+  height:100px;
+  width:100px;
+  background-color:white;
+  border:2px solid gray;
+ }
+.img-margin{padding:15px}
