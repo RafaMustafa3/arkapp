@@ -8,10 +8,12 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "start": "node app.js",
+    "test": "./node_modules/.bin/_mocha test",
     "dev": "lite-server",
     "dev:node": "./node_modules/.bin/nodemon app.js",
     "rafa": "set SANDBOX=rafa&& lite-server",
@@ -26,10 +28,12 @@
     "email": "b.lugavere@gmail.com",
     "url": "http://benlugavere.com/#/"
   },
-  "contributors": [{
-    "name": "Rafael Benavides",
-    "email": "rafi869@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Rafael Benavides",
+      "email": "rafi869@gmail.com"
+    }
+  ],
   "license": "ISC",
   "repository": "blugavere/brocode"
 }
